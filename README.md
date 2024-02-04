@@ -2,7 +2,7 @@
 
 ## Description
 
-This project was the second one developed for the class of Analysis and Synthesis of Algorithms, taken during the first semester of the second year of my bachelor's degree @IST.
+This project was developed for the class of Analysis and Synthesis of Algorithms.
 
 ## Objective
 
