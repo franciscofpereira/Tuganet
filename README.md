@@ -6,7 +6,7 @@ This project was developed for the class of Analysis and Synthesis of Algorithms
 
 ## Objective
 
-Calculate the **maximum number of transmissions** the infectious disease can make on the given network of people. When representing the network of people as a potentially cyclic graph (because people can know each other mutually), we can find the longest possible path along the edges of the graph by collapsing strongly connected components (SCCs) followed by a DFS traversal along the resulting directed acyclic graph (DAG) for all nodes.
+Calculate the **maximum number of transmissions** the infectious disease can make on a given network of people. When representing the network of people as a potentially cyclic graph (because people can know each other mutually), we can find the longest possible path along the edges of the graph by collapsing strongly connected components (SCCs) followed by a DFS traversal along the resulting directed acyclic graph (DAG) for all nodes.
 
 - Refer to the file `p2.pdf` for the project's instructions and details.
 - Refer to the file `relatorio_tuganet.pdf` for the full report on the solution's time complexity and description.
