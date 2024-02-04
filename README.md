@@ -11,13 +11,13 @@ Calculate the **maximum number of transmissions** the infectious disease can mak
 - Refer to the file `p2.pdf` for the project's instructions and details.
 - Refer to the file `relatorio_tuganet.pdf` for the full report on the solution's time complexity and description.
 
-**Source Code:** The source code for the problem's solution is in `proj2.cpp`.
+**Source Code:** The source code for the problem's solution is in the `src` directory in the file `proj2.cpp`.
 
 To compile `proj2.cpp`, use:
 > **g++ -std=c++11 -O3 -Wall proj2.cpp -lm**
 
 **Unit Tests:** To generate unit tests you can use `circular.sh` for circular networks of people and
-`gen_tuganet.cpp` for potencially cyclic networks.
+`gen_tuganet.cpp` for potencially cyclic networks. These files can be found in `test_generators` directory.
 
 To compile `gen_tuganet.cpp`, use:
 > **g++ -std=c++11 -O3 -Wall -o gen_tuganet gen_tuganet.cpp -lm**
