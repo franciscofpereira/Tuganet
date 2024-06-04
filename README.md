@@ -14,16 +14,21 @@ Calculate the **maximum number of transmissions** the infectious disease can mak
 **Source Code:** The source code for the problem's solution is in the `src` directory in the file `proj2.cpp`.
 
 To compile `proj2.cpp`, use:
-> **g++ -std=c++11 -O3 -Wall proj2.cpp -lm**
-
+```text
+g++ -std=c++11 -O3 -Wall proj2.cpp -lm
+```
 **Unit Tests:** To generate unit tests you can use `circular.sh` for circular networks of people and
 `gen_tuganet.cpp` for potencially cyclic networks. These files can be found in `test_generators` directory.
 
 To compile `gen_tuganet.cpp`, use:
-> **g++ -std=c++11 -O3 -Wall -o gen_tuganet gen_tuganet.cpp -lm**
+```text
+g++ -std=c++11 -O3 -Wall -o gen_tuganet gen_tuganet.cpp -lm
+```
 
 To run `gen_tuganet.cpp` use:
-> **./gen_tuganet V E SubN m M seed  > testfile**
+```text
+./gen_tuganet V E SubN m M seed  > testfile
+```
 >Where:
 >- V is the number of vertices of the graph
 >- E is the number of edges of the graph
@@ -32,4 +37,7 @@ To run `gen_tuganet.cpp` use:
 >- M is the maximum number of individuals per sub-network
 
 To run `circular.sh` use:
-> bash circular.sh V > testfile (where V is the number of vertices in the circular graph)
+```text
+bash circular.sh V > testfile
+```
+(where V is the number of vertices in the circular graph)
