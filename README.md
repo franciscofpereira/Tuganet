@@ -40,4 +40,5 @@ To run `circular.sh` use:
 ```text
 bash circular.sh V > testfile
 ```
-(where V is the number of vertices in the circular graph)
+>Where:
+>- V is the number of vertices in the circular graph
